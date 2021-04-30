@@ -1,0 +1,1650 @@
+
+====== FIRST POOL, 1 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         59 function calls in 1.561 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.561    1.561 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.000    0.000    1.561    1.561 client.py:36(test_function)
+        2    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+        1    0.000    0.000    0.000    0.000 thread_builder.py:115(__init__)
+        1    0.000    0.000    0.000    0.000 thread_builder.py:131(config)
+        1    0.000    0.000    0.000    0.000 thread_builder.py:177(get_thread)
+        1    0.000    0.000    1.559    1.559 threading.py:1001(join)
+        1    0.000    0.000    1.559    1.559 threading.py:1039(_wait_for_tstate_lock)
+        2    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+        1    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+        2    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+        3    0.000    0.000    0.000    0.000 threading.py:228(__init__)
+        1    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+        1    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+        1    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+        1    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+        1    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+        1    0.000    0.000    0.001    0.001 threading.py:280(wait)
+        3    0.000    0.000    0.000    0.000 threading.py:521(__init__)
+        2    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+        1    0.000    0.000    0.001    0.001 threading.py:556(wait)
+        1    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+        1    0.000    0.000    0.000    0.000 threading.py:777(__init__)
+        1    0.000    0.000    0.001    0.001 threading.py:855(start)
+        1    0.000    0.000    0.000    0.000 threading.py:966(_stop)
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.001    0.001    0.001    0.001 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    1.561    1.561 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        5    1.560    0.312    1.560    0.312 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== SECOND POOL, 1 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         59 function calls in 1.569 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.569    1.569 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.000    0.000    1.569    1.569 client.py:36(test_function)
+        2    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+        1    0.000    0.000    0.000    0.000 thread_builder.py:115(__init__)
+        1    0.000    0.000    0.000    0.000 thread_builder.py:131(config)
+        1    0.000    0.000    0.000    0.000 thread_builder.py:177(get_thread)
+        1    0.000    0.000    1.568    1.568 threading.py:1001(join)
+        1    0.000    0.000    1.568    1.568 threading.py:1039(_wait_for_tstate_lock)
+        2    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+        1    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+        2    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+        3    0.000    0.000    0.000    0.000 threading.py:228(__init__)
+        1    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+        1    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+        1    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+        1    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+        1    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+        1    0.000    0.000    0.000    0.000 threading.py:280(wait)
+        3    0.000    0.000    0.000    0.000 threading.py:521(__init__)
+        2    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+        1    0.000    0.000    0.000    0.000 threading.py:556(wait)
+        1    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+        1    0.000    0.000    0.000    0.000 threading.py:777(__init__)
+        1    0.000    0.000    0.001    0.001 threading.py:855(start)
+        1    0.000    0.000    0.000    0.000 threading.py:966(_stop)
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.001    0.001    0.001    0.001 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    1.569    1.569 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        5    1.568    0.314    1.568    0.314 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== THIRD POOL, 1 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         59 function calls in 1.561 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.561    1.561 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.000    0.000    1.561    1.561 client.py:36(test_function)
+        2    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+        1    0.000    0.000    0.000    0.000 thread_builder.py:115(__init__)
+        1    0.000    0.000    0.000    0.000 thread_builder.py:131(config)
+        1    0.000    0.000    0.000    0.000 thread_builder.py:177(get_thread)
+        1    0.000    0.000    1.559    1.559 threading.py:1001(join)
+        1    0.000    0.000    1.559    1.559 threading.py:1039(_wait_for_tstate_lock)
+        2    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+        1    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+        2    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+        3    0.000    0.000    0.000    0.000 threading.py:228(__init__)
+        1    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+        1    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+        1    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+        1    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+        1    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+        1    0.000    0.000    0.000    0.000 threading.py:280(wait)
+        3    0.000    0.000    0.000    0.000 threading.py:521(__init__)
+        2    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+        1    0.000    0.000    0.000    0.000 threading.py:556(wait)
+        1    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+        1    0.000    0.000    0.000    0.000 threading.py:777(__init__)
+        1    0.000    0.000    0.001    0.001 threading.py:855(start)
+        1    0.000    0.000    0.000    0.000 threading.py:966(_stop)
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.001    0.001    0.001    0.001 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    1.561    1.561 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        5    1.560    0.312    1.560    0.312 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== FIRST POOL, 100 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         5504 function calls in 2.231 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    2.231    2.231 <string>:1(<module>)
+      100    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.000    0.000    2.231    2.231 client.py:36(test_function)
+      200    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      100    0.000    0.000    0.001    0.000 thread_builder.py:115(__init__)
+      100    0.000    0.000    0.002    0.000 thread_builder.py:131(config)
+      100    0.000    0.000    0.003    0.000 thread_builder.py:177(get_thread)
+      100    0.000    0.000    2.150    0.021 threading.py:1001(join)
+      100    0.000    0.000    2.149    0.021 threading.py:1039(_wait_for_tstate_lock)
+      200    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      100    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+      200    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+      300    0.001    0.000    0.001    0.000 threading.py:228(__init__)
+      100    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+      100    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      100    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      100    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+      100    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      100    0.000    0.000    0.034    0.000 threading.py:280(wait)
+      300    0.000    0.000    0.002    0.000 threading.py:521(__init__)
+      200    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      100    0.001    0.000    0.035    0.000 threading.py:556(wait)
+      100    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      100    0.000    0.000    0.001    0.000 threading.py:777(__init__)
+      100    0.001    0.000    0.078    0.001 threading.py:855(start)
+      100    0.000    0.000    0.000    0.000 threading.py:966(_stop)
+      400    0.001    0.000    0.001    0.000 {built-in method _thread.allocate_lock}
+      200    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      100    0.043    0.000    0.043    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    2.231    2.231 {built-in method builtins.exec}
+      100    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+      300    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+      500    2.181    0.004    2.181    0.004 {method 'acquire' of '_thread.lock' objects}
+      100    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      100    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      100    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      100    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      100    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+      200    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== SECOND POOL, 100 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         5504 function calls in 2.217 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    2.217    2.217 <string>:1(<module>)
+      100    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.000    0.000    2.217    2.217 client.py:36(test_function)
+      200    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      100    0.000    0.000    0.001    0.000 thread_builder.py:115(__init__)
+      100    0.000    0.000    0.002    0.000 thread_builder.py:131(config)
+      100    0.000    0.000    0.003    0.000 thread_builder.py:177(get_thread)
+      100    0.000    0.000    2.191    0.022 threading.py:1001(join)
+      100    0.000    0.000    2.191    0.022 threading.py:1039(_wait_for_tstate_lock)
+      200    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      100    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+      200    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+      300    0.001    0.000    0.001    0.000 threading.py:228(__init__)
+      100    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+      100    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      100    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      100    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+      100    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      100    0.000    0.000    0.016    0.000 threading.py:280(wait)
+      300    0.000    0.000    0.001    0.000 threading.py:521(__init__)
+      200    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      100    0.001    0.000    0.017    0.000 threading.py:556(wait)
+      100    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      100    0.000    0.000    0.002    0.000 threading.py:777(__init__)
+      100    0.001    0.000    0.022    0.000 threading.py:855(start)
+      100    0.000    0.000    0.000    0.000 threading.py:966(_stop)
+      400    0.001    0.000    0.001    0.000 {built-in method _thread.allocate_lock}
+      200    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      100    0.005    0.000    0.005    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    2.217    2.217 {built-in method builtins.exec}
+      100    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+      300    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+      500    2.205    0.004    2.205    0.004 {method 'acquire' of '_thread.lock' objects}
+      100    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      100    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      100    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      100    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      100    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+      200    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== THIRD POOL, 100 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         5504 function calls in 2.326 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    2.326    2.326 <string>:1(<module>)
+      100    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.000    0.000    2.326    2.326 client.py:36(test_function)
+      200    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      100    0.000    0.000    0.001    0.000 thread_builder.py:115(__init__)
+      100    0.000    0.000    0.002    0.000 thread_builder.py:131(config)
+      100    0.000    0.000    0.004    0.000 thread_builder.py:177(get_thread)
+      100    0.001    0.000    2.299    0.023 threading.py:1001(join)
+      100    0.000    0.000    2.299    0.023 threading.py:1039(_wait_for_tstate_lock)
+      200    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      100    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+      200    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+      300    0.001    0.000    0.001    0.000 threading.py:228(__init__)
+      100    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+      100    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      100    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      100    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+      100    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      100    0.000    0.000    0.016    0.000 threading.py:280(wait)
+      300    0.000    0.000    0.002    0.000 threading.py:521(__init__)
+      200    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      100    0.001    0.000    0.017    0.000 threading.py:556(wait)
+      100    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      100    0.000    0.000    0.001    0.000 threading.py:777(__init__)
+      100    0.001    0.000    0.022    0.000 threading.py:855(start)
+      100    0.000    0.000    0.000    0.000 threading.py:966(_stop)
+      400    0.001    0.000    0.001    0.000 {built-in method _thread.allocate_lock}
+      200    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      100    0.005    0.000    0.005    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    2.326    2.326 {built-in method builtins.exec}
+      100    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+      300    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+      500    2.313    0.005    2.313    0.005 {method 'acquire' of '_thread.lock' objects}
+      100    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      100    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      100    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      100    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      100    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+      200    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== FIRST POOL, 200 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         11004 function calls in 2.590 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    2.589    2.589 <string>:1(<module>)
+      200    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.000    0.000    2.589    2.589 client.py:36(test_function)
+      400    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      200    0.001    0.000    0.002    0.000 thread_builder.py:115(__init__)
+      200    0.001    0.000    0.004    0.000 thread_builder.py:131(config)
+      200    0.000    0.000    0.008    0.000 thread_builder.py:177(get_thread)
+      200    0.001    0.000    2.488    0.012 threading.py:1001(join)
+      200    0.000    0.000    2.487    0.012 threading.py:1039(_wait_for_tstate_lock)
+      400    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      200    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+      400    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+      600    0.002    0.000    0.002    0.000 threading.py:228(__init__)
+      200    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+      200    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      200    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      200    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+      200    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      200    0.001    0.000    0.078    0.000 threading.py:280(wait)
+      600    0.001    0.000    0.004    0.000 threading.py:521(__init__)
+      400    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      200    0.002    0.000    0.081    0.000 threading.py:556(wait)
+      200    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      200    0.001    0.000    0.003    0.000 threading.py:777(__init__)
+      200    0.001    0.000    0.093    0.000 threading.py:855(start)
+      200    0.000    0.000    0.000    0.000 threading.py:966(_stop)
+      800    0.002    0.000    0.002    0.000 {built-in method _thread.allocate_lock}
+      400    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      200    0.012    0.000    0.012    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    2.590    2.590 {built-in method builtins.exec}
+      200    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+      600    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     1000    2.563    0.003    2.563    0.003 {method 'acquire' of '_thread.lock' objects}
+      200    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      200    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      200    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      200    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      200    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+      400    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== SECOND POOL, 200 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         11004 function calls in 2.604 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    2.604    2.604 <string>:1(<module>)
+      200    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.000    0.000    2.604    2.604 client.py:36(test_function)
+      400    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      200    0.001    0.000    0.002    0.000 thread_builder.py:115(__init__)
+      200    0.001    0.000    0.004    0.000 thread_builder.py:131(config)
+      200    0.000    0.000    0.007    0.000 thread_builder.py:177(get_thread)
+      200    0.001    0.000    2.524    0.013 threading.py:1001(join)
+      200    0.000    0.000    2.523    0.013 threading.py:1039(_wait_for_tstate_lock)
+      400    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      200    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+      400    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+      600    0.001    0.000    0.001    0.000 threading.py:228(__init__)
+      200    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+      200    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      200    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      200    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+      200    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      200    0.001    0.000    0.062    0.000 threading.py:280(wait)
+      600    0.000    0.000    0.003    0.000 threading.py:521(__init__)
+      400    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      200    0.001    0.000    0.063    0.000 threading.py:556(wait)
+      200    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      200    0.001    0.000    0.003    0.000 threading.py:777(__init__)
+      200    0.001    0.000    0.073    0.000 threading.py:855(start)
+      200    0.000    0.000    0.001    0.000 threading.py:966(_stop)
+      800    0.002    0.000    0.002    0.000 {built-in method _thread.allocate_lock}
+      400    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      200    0.009    0.000    0.009    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    2.604    2.604 {built-in method builtins.exec}
+      200    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+      600    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     1000    2.581    0.003    2.581    0.003 {method 'acquire' of '_thread.lock' objects}
+      200    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      200    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      200    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      200    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      200    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+      400    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== THIRD POOL, 200 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         11004 function calls in 2.572 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    2.572    2.572 <string>:1(<module>)
+      200    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.000    0.000    2.572    2.572 client.py:36(test_function)
+      400    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      200    0.001    0.000    0.002    0.000 thread_builder.py:115(__init__)
+      200    0.001    0.000    0.004    0.000 thread_builder.py:131(config)
+      200    0.000    0.000    0.007    0.000 thread_builder.py:177(get_thread)
+      200    0.001    0.000    2.491    0.012 threading.py:1001(join)
+      200    0.000    0.000    2.490    0.012 threading.py:1039(_wait_for_tstate_lock)
+      400    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      200    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+      400    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+      600    0.002    0.000    0.002    0.000 threading.py:228(__init__)
+      200    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+      200    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      200    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      200    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+      200    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      200    0.001    0.000    0.062    0.000 threading.py:280(wait)
+      600    0.000    0.000    0.004    0.000 threading.py:521(__init__)
+      400    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      200    0.001    0.000    0.064    0.000 threading.py:556(wait)
+      200    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      200    0.001    0.000    0.003    0.000 threading.py:777(__init__)
+      200    0.001    0.000    0.073    0.000 threading.py:855(start)
+      200    0.000    0.000    0.000    0.000 threading.py:966(_stop)
+      800    0.002    0.000    0.002    0.000 {built-in method _thread.allocate_lock}
+      400    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      200    0.009    0.000    0.009    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    2.572    2.572 {built-in method builtins.exec}
+      200    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+      600    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     1000    2.549    0.003    2.549    0.003 {method 'acquire' of '_thread.lock' objects}
+      200    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      200    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      200    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      200    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      200    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+      400    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== FIRST POOL, 300 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         16504 function calls in 3.508 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    3.508    3.508 <string>:1(<module>)
+      300    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.001    0.001    3.508    3.508 client.py:36(test_function)
+      600    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      300    0.001    0.000    0.003    0.000 thread_builder.py:115(__init__)
+      300    0.001    0.000    0.005    0.000 thread_builder.py:131(config)
+      300    0.000    0.000    0.009    0.000 thread_builder.py:177(get_thread)
+      300    0.001    0.000    2.813    0.009 threading.py:1001(join)
+      300    0.000    0.000    2.811    0.009 threading.py:1039(_wait_for_tstate_lock)
+      600    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      300    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+      600    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+      900    0.002    0.000    0.002    0.000 threading.py:228(__init__)
+      300    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+      300    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      300    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      300    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+      300    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      300    0.001    0.000    0.666    0.002 threading.py:280(wait)
+      900    0.001    0.000    0.004    0.000 threading.py:521(__init__)
+      600    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      300    0.002    0.000    0.668    0.002 threading.py:556(wait)
+      300    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      300    0.001    0.000    0.003    0.000 threading.py:777(__init__)
+      300    0.002    0.000    0.685    0.002 threading.py:855(start)
+      300    0.000    0.000    0.001    0.000 threading.py:966(_stop)
+     1200    0.003    0.000    0.003    0.000 {built-in method _thread.allocate_lock}
+      600    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      300    0.016    0.000    0.016    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    3.508    3.508 {built-in method builtins.exec}
+      300    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+      900    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     1500    3.473    0.002    3.473    0.002 {method 'acquire' of '_thread.lock' objects}
+      300    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      300    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      300    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      300    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      300    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+      600    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== SECOND POOL, 300 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         16504 function calls in 3.446 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    3.446    3.446 <string>:1(<module>)
+      300    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.001    0.001    3.446    3.446 client.py:36(test_function)
+      600    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      300    0.001    0.000    0.003    0.000 thread_builder.py:115(__init__)
+      300    0.001    0.000    0.005    0.000 thread_builder.py:131(config)
+      300    0.000    0.000    0.009    0.000 thread_builder.py:177(get_thread)
+      300    0.001    0.000    2.853    0.010 threading.py:1001(join)
+      300    0.000    0.000    2.851    0.010 threading.py:1039(_wait_for_tstate_lock)
+      600    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      300    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+      600    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+      900    0.002    0.000    0.002    0.000 threading.py:228(__init__)
+      300    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+      300    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      300    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      300    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+      300    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      300    0.001    0.000    0.563    0.002 threading.py:280(wait)
+      900    0.001    0.000    0.004    0.000 threading.py:521(__init__)
+      600    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      300    0.002    0.000    0.565    0.002 threading.py:556(wait)
+      300    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      300    0.001    0.000    0.004    0.000 threading.py:777(__init__)
+      300    0.001    0.000    0.583    0.002 threading.py:855(start)
+      300    0.001    0.000    0.001    0.000 threading.py:966(_stop)
+     1200    0.003    0.000    0.003    0.000 {built-in method _thread.allocate_lock}
+      600    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      300    0.016    0.000    0.016    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    3.446    3.446 {built-in method builtins.exec}
+      300    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+      900    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     1500    3.410    0.002    3.410    0.002 {method 'acquire' of '_thread.lock' objects}
+      300    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      300    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      300    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      300    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      300    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+      600    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== THIRD POOL, 300 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         16504 function calls in 3.492 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    3.492    3.492 <string>:1(<module>)
+      300    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.001    0.001    3.492    3.492 client.py:36(test_function)
+      600    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      300    0.001    0.000    0.003    0.000 thread_builder.py:115(__init__)
+      300    0.001    0.000    0.006    0.000 thread_builder.py:131(config)
+      300    0.000    0.000    0.010    0.000 thread_builder.py:177(get_thread)
+      300    0.001    0.000    2.828    0.009 threading.py:1001(join)
+      300    0.000    0.000    2.826    0.009 threading.py:1039(_wait_for_tstate_lock)
+      600    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      300    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+      600    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+      900    0.002    0.000    0.002    0.000 threading.py:228(__init__)
+      300    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+      300    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      300    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      300    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+      300    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      300    0.001    0.000    0.635    0.002 threading.py:280(wait)
+      900    0.001    0.000    0.005    0.000 threading.py:521(__init__)
+      600    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      300    0.002    0.000    0.638    0.002 threading.py:556(wait)
+      300    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      300    0.001    0.000    0.004    0.000 threading.py:777(__init__)
+      300    0.001    0.000    0.654    0.002 threading.py:855(start)
+      300    0.001    0.000    0.001    0.000 threading.py:966(_stop)
+     1200    0.003    0.000    0.003    0.000 {built-in method _thread.allocate_lock}
+      600    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      300    0.015    0.000    0.015    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    3.492    3.492 {built-in method builtins.exec}
+      300    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+      900    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     1500    3.457    0.002    3.457    0.002 {method 'acquire' of '_thread.lock' objects}
+      300    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      300    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      300    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      300    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      300    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+      600    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== FIRST POOL, 400 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         22004 function calls in 4.959 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    4.959    4.959 <string>:1(<module>)
+      400    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.001    0.001    4.959    4.959 client.py:36(test_function)
+      800    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      400    0.002    0.000    0.004    0.000 thread_builder.py:115(__init__)
+      400    0.002    0.000    0.008    0.000 thread_builder.py:131(config)
+      400    0.001    0.000    0.014    0.000 thread_builder.py:177(get_thread)
+      400    0.002    0.000    2.292    0.006 threading.py:1001(join)
+      400    0.001    0.000    2.290    0.006 threading.py:1039(_wait_for_tstate_lock)
+      800    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      400    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+      800    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+     1200    0.003    0.000    0.003    0.000 threading.py:228(__init__)
+      400    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+      400    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      400    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      400    0.000    0.000    0.000    0.000 threading.py:268(_acquire_restore)
+      400    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      400    0.002    0.000    2.624    0.007 threading.py:280(wait)
+     1200    0.001    0.000    0.006    0.000 threading.py:521(__init__)
+      800    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      400    0.002    0.000    2.628    0.007 threading.py:556(wait)
+      400    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      400    0.002    0.000    0.006    0.000 threading.py:777(__init__)
+      400    0.002    0.000    2.652    0.007 threading.py:855(start)
+      400    0.001    0.000    0.001    0.000 threading.py:966(_stop)
+     1600    0.004    0.000    0.004    0.000 {built-in method _thread.allocate_lock}
+      800    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      400    0.022    0.000    0.022    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    4.959    4.959 {built-in method builtins.exec}
+      400    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     1200    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     2000    4.909    0.002    4.909    0.002 {method 'acquire' of '_thread.lock' objects}
+      400    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      400    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      400    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      400    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      400    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+      800    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== SECOND POOL, 400 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         22004 function calls in 4.960 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    4.959    4.959 <string>:1(<module>)
+      400    0.000    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.001    0.001    4.959    4.959 client.py:36(test_function)
+      800    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      400    0.002    0.000    0.004    0.000 thread_builder.py:115(__init__)
+      400    0.002    0.000    0.008    0.000 thread_builder.py:131(config)
+      400    0.001    0.000    0.013    0.000 thread_builder.py:177(get_thread)
+      400    0.002    0.000    2.375    0.006 threading.py:1001(join)
+      400    0.001    0.000    2.373    0.006 threading.py:1039(_wait_for_tstate_lock)
+      800    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      400    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+      800    0.000    0.000    0.001    0.000 threading.py:1318(current_thread)
+     1200    0.003    0.000    0.003    0.000 threading.py:228(__init__)
+      400    0.001    0.000    0.002    0.000 threading.py:256(__enter__)
+      400    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      400    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      400    0.000    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      400    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      400    0.002    0.000    2.539    0.006 threading.py:280(wait)
+     1200    0.001    0.000    0.006    0.000 threading.py:521(__init__)
+      800    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      400    0.003    0.000    2.543    0.006 threading.py:556(wait)
+      400    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      400    0.002    0.000    0.005    0.000 threading.py:777(__init__)
+      400    0.002    0.000    2.570    0.006 threading.py:855(start)
+      400    0.001    0.000    0.001    0.000 threading.py:966(_stop)
+     1600    0.004    0.000    0.004    0.000 {built-in method _thread.allocate_lock}
+      800    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      400    0.024    0.000    0.024    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    4.960    4.960 {built-in method builtins.exec}
+      400    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     1200    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     2000    4.905    0.002    4.905    0.002 {method 'acquire' of '_thread.lock' objects}
+      400    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      400    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      400    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      400    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      400    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+      800    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== THIRD POOL, 400 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         22004 function calls in 4.944 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    4.944    4.944 <string>:1(<module>)
+      400    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.001    0.001    4.944    4.944 client.py:36(test_function)
+      800    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      400    0.001    0.000    0.004    0.000 thread_builder.py:115(__init__)
+      400    0.001    0.000    0.007    0.000 thread_builder.py:131(config)
+      400    0.001    0.000    0.012    0.000 thread_builder.py:177(get_thread)
+      400    0.001    0.000    2.424    0.006 threading.py:1001(join)
+      400    0.001    0.000    2.423    0.006 threading.py:1039(_wait_for_tstate_lock)
+      800    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      400    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+      800    0.000    0.000    0.000    0.000 threading.py:1318(current_thread)
+     1200    0.003    0.000    0.003    0.000 threading.py:228(__init__)
+      400    0.000    0.000    0.000    0.000 threading.py:256(__enter__)
+      400    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      400    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      400    0.000    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      400    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      400    0.002    0.000    2.476    0.006 threading.py:280(wait)
+     1200    0.001    0.000    0.006    0.000 threading.py:521(__init__)
+      800    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      400    0.003    0.000    2.480    0.006 threading.py:556(wait)
+      400    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      400    0.001    0.000    0.005    0.000 threading.py:777(__init__)
+      400    0.002    0.000    2.506    0.006 threading.py:855(start)
+      400    0.001    0.000    0.001    0.000 threading.py:966(_stop)
+     1600    0.004    0.000    0.004    0.000 {built-in method _thread.allocate_lock}
+      800    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      400    0.025    0.000    0.025    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    4.944    4.944 {built-in method builtins.exec}
+      400    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     1200    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     2000    4.892    0.002    4.892    0.002 {method 'acquire' of '_thread.lock' objects}
+      400    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      400    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      400    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      400    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      400    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+      800    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== FIRST POOL, 500 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         27504 function calls in 6.020 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    6.020    6.020 <string>:1(<module>)
+      500    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.001    0.001    6.020    6.020 client.py:36(test_function)
+     1000    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      500    0.002    0.000    0.004    0.000 thread_builder.py:115(__init__)
+      500    0.002    0.000    0.009    0.000 thread_builder.py:131(config)
+      500    0.001    0.000    0.015    0.000 thread_builder.py:177(get_thread)
+      500    0.002    0.000    2.302    0.005 threading.py:1001(join)
+      500    0.001    0.000    2.300    0.005 threading.py:1039(_wait_for_tstate_lock)
+     1000    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      500    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     1000    0.000    0.000    0.001    0.000 threading.py:1318(current_thread)
+     1500    0.003    0.000    0.003    0.000 threading.py:228(__init__)
+      500    0.000    0.000    0.001    0.000 threading.py:256(__enter__)
+      500    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      500    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      500    0.000    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      500    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      500    0.002    0.000    3.664    0.007 threading.py:280(wait)
+     1500    0.001    0.000    0.007    0.000 threading.py:521(__init__)
+     1000    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      500    0.003    0.000    3.669    0.007 threading.py:556(wait)
+      500    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      500    0.002    0.000    0.006    0.000 threading.py:777(__init__)
+      500    0.003    0.000    3.701    0.007 threading.py:855(start)
+      500    0.001    0.000    0.001    0.000 threading.py:966(_stop)
+     2000    0.005    0.000    0.005    0.000 {built-in method _thread.allocate_lock}
+     1000    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      500    0.030    0.000    0.030    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    6.020    6.020 {built-in method builtins.exec}
+      500    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     1500    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     2500    5.956    0.002    5.956    0.002 {method 'acquire' of '_thread.lock' objects}
+      500    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      500    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      500    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      500    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      500    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== SECOND POOL, 500 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         27504 function calls in 6.034 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    6.034    6.034 <string>:1(<module>)
+      500    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.001    0.001    6.034    6.034 client.py:36(test_function)
+     1000    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      500    0.002    0.000    0.005    0.000 thread_builder.py:115(__init__)
+      500    0.002    0.000    0.009    0.000 thread_builder.py:131(config)
+      500    0.001    0.000    0.016    0.000 thread_builder.py:177(get_thread)
+      500    0.002    0.000    2.171    0.004 threading.py:1001(join)
+      500    0.001    0.000    2.169    0.004 threading.py:1039(_wait_for_tstate_lock)
+     1000    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      500    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+     1000    0.000    0.000    0.001    0.000 threading.py:1318(current_thread)
+     1500    0.003    0.000    0.003    0.000 threading.py:228(__init__)
+      500    0.000    0.000    0.001    0.000 threading.py:256(__enter__)
+      500    0.000    0.000    0.000    0.000 threading.py:259(__exit__)
+      500    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      500    0.000    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      500    0.000    0.000    0.000    0.000 threading.py:271(_is_owned)
+      500    0.002    0.000    3.806    0.008 threading.py:280(wait)
+     1500    0.001    0.000    0.007    0.000 threading.py:521(__init__)
+     1000    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      500    0.003    0.000    3.810    0.008 threading.py:556(wait)
+      500    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      500    0.002    0.000    0.006    0.000 threading.py:777(__init__)
+      500    0.003    0.000    3.846    0.008 threading.py:855(start)
+      500    0.001    0.000    0.001    0.000 threading.py:966(_stop)
+     2000    0.005    0.000    0.005    0.000 {built-in method _thread.allocate_lock}
+     1000    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      500    0.032    0.000    0.032    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    6.034    6.034 {built-in method builtins.exec}
+      500    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     1500    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     2500    5.968    0.002    5.968    0.002 {method 'acquire' of '_thread.lock' objects}
+      500    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      500    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      500    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      500    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      500    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== THIRD POOL, 500 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         27504 function calls in 6.630 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    6.630    6.630 <string>:1(<module>)
+      500    0.000    0.000    0.000    0.000 _weakrefset.py:82(add)
+        1    0.001    0.001    6.630    6.630 client.py:36(test_function)
+     1000    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      500    0.002    0.000    0.005    0.000 thread_builder.py:115(__init__)
+      500    0.002    0.000    0.009    0.000 thread_builder.py:131(config)
+      500    0.001    0.000    0.016    0.000 thread_builder.py:177(get_thread)
+      500    0.002    0.000    2.367    0.005 threading.py:1001(join)
+      500    0.001    0.000    2.365    0.005 threading.py:1039(_wait_for_tstate_lock)
+     1000    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      500    0.000    0.000    0.000    0.000 threading.py:1189(_make_invoke_excepthook)
+     1000    0.000    0.000    0.001    0.000 threading.py:1318(current_thread)
+     1500    0.003    0.000    0.003    0.000 threading.py:228(__init__)
+      500    0.000    0.000    0.001    0.000 threading.py:256(__enter__)
+      500    0.000    0.000    0.001    0.000 threading.py:259(__exit__)
+      500    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      500    0.000    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      500    0.000    0.000    0.001    0.000 threading.py:271(_is_owned)
+      500    0.003    0.000    4.202    0.008 threading.py:280(wait)
+     1500    0.001    0.000    0.007    0.000 threading.py:521(__init__)
+     1000    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      500    0.004    0.000    4.207    0.008 threading.py:556(wait)
+      500    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      500    0.003    0.000    0.007    0.000 threading.py:777(__init__)
+      500    0.003    0.000    4.245    0.008 threading.py:855(start)
+      500    0.001    0.000    0.002    0.000 threading.py:966(_stop)
+     2000    0.005    0.000    0.005    0.000 {built-in method _thread.allocate_lock}
+     1000    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      500    0.034    0.000    0.034    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    6.630    6.630 {built-in method builtins.exec}
+      500    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     1500    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     2500    6.558    0.003    6.558    0.003 {method 'acquire' of '_thread.lock' objects}
+      500    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      500    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      500    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      500    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      500    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== FIRST POOL, 600 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         33004 function calls in 8.031 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    8.031    8.031 <string>:1(<module>)
+      600    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.002    0.002    8.031    8.031 client.py:36(test_function)
+     1200    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      600    0.003    0.000    0.008    0.000 thread_builder.py:115(__init__)
+      600    0.003    0.000    0.016    0.000 thread_builder.py:131(config)
+      600    0.001    0.000    0.029    0.000 thread_builder.py:177(get_thread)
+      600    0.003    0.000    2.551    0.004 threading.py:1001(join)
+      600    0.001    0.000    2.548    0.004 threading.py:1039(_wait_for_tstate_lock)
+     1200    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      600    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     1200    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     1800    0.007    0.000    0.007    0.000 threading.py:228(__init__)
+      600    0.000    0.000    0.001    0.000 threading.py:256(__enter__)
+      600    0.000    0.000    0.001    0.000 threading.py:259(__exit__)
+      600    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      600    0.001    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      600    0.000    0.000    0.001    0.000 threading.py:271(_is_owned)
+      600    0.003    0.000    5.396    0.009 threading.py:280(wait)
+     1800    0.002    0.000    0.014    0.000 threading.py:521(__init__)
+     1200    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+      600    0.005    0.000    5.402    0.009 threading.py:556(wait)
+      600    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+      600    0.004    0.000    0.012    0.000 threading.py:777(__init__)
+      600    0.004    0.000    5.448    0.009 threading.py:855(start)
+      600    0.002    0.000    0.002    0.000 threading.py:966(_stop)
+     2400    0.008    0.000    0.008    0.000 {built-in method _thread.allocate_lock}
+     1200    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      600    0.042    0.000    0.042    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    8.031    8.031 {built-in method builtins.exec}
+      600    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     1800    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     3000    7.933    0.003    7.933    0.003 {method 'acquire' of '_thread.lock' objects}
+      600    0.001    0.000    0.001    0.000 {method 'add' of 'set' objects}
+      600    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      600    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      600    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      600    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1200    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== SECOND POOL, 600 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         33004 function calls in 7.644 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    7.644    7.644 <string>:1(<module>)
+      600    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.002    0.002    7.644    7.644 client.py:36(test_function)
+     1200    0.001    0.000    0.001    0.000 singleton.py:4(__call__)
+      600    0.004    0.000    0.009    0.000 thread_builder.py:115(__init__)
+      600    0.004    0.000    0.019    0.000 thread_builder.py:131(config)
+      600    0.001    0.000    0.033    0.000 thread_builder.py:177(get_thread)
+      600    0.002    0.000    2.582    0.004 threading.py:1001(join)
+      600    0.001    0.000    2.579    0.004 threading.py:1039(_wait_for_tstate_lock)
+     1200    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      600    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     1200    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     1800    0.007    0.000    0.007    0.000 threading.py:228(__init__)
+      600    0.000    0.000    0.001    0.000 threading.py:256(__enter__)
+      600    0.000    0.000    0.001    0.000 threading.py:259(__exit__)
+      600    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      600    0.001    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      600    0.000    0.000    0.001    0.000 threading.py:271(_is_owned)
+      600    0.004    0.000    4.972    0.008 threading.py:280(wait)
+     1800    0.002    0.000    0.015    0.000 threading.py:521(__init__)
+     1200    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      600    0.005    0.000    4.978    0.008 threading.py:556(wait)
+      600    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+      600    0.005    0.000    0.013    0.000 threading.py:777(__init__)
+      600    0.004    0.000    5.027    0.008 threading.py:855(start)
+      600    0.001    0.000    0.002    0.000 threading.py:966(_stop)
+     2400    0.008    0.000    0.008    0.000 {built-in method _thread.allocate_lock}
+     1200    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      600    0.044    0.000    0.044    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    7.644    7.644 {built-in method builtins.exec}
+      600    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     1800    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     3000    7.541    0.003    7.541    0.003 {method 'acquire' of '_thread.lock' objects}
+      600    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      600    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      600    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      600    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      600    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1200    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== THIRD POOL, 600 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         33004 function calls in 7.687 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    7.687    7.687 <string>:1(<module>)
+      600    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.002    0.002    7.687    7.687 client.py:36(test_function)
+     1200    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      600    0.003    0.000    0.007    0.000 thread_builder.py:115(__init__)
+      600    0.003    0.000    0.013    0.000 thread_builder.py:131(config)
+      600    0.001    0.000    0.025    0.000 thread_builder.py:177(get_thread)
+      600    0.003    0.000    2.472    0.004 threading.py:1001(join)
+      600    0.001    0.000    2.469    0.004 threading.py:1039(_wait_for_tstate_lock)
+     1200    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      600    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     1200    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     1800    0.005    0.000    0.005    0.000 threading.py:228(__init__)
+      600    0.001    0.000    0.001    0.000 threading.py:256(__enter__)
+      600    0.000    0.000    0.001    0.000 threading.py:259(__exit__)
+      600    0.000    0.000    0.000    0.000 threading.py:265(_release_save)
+      600    0.001    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      600    0.000    0.000    0.001    0.000 threading.py:271(_is_owned)
+      600    0.003    0.000    5.135    0.009 threading.py:280(wait)
+     1800    0.002    0.000    0.011    0.000 threading.py:521(__init__)
+     1200    0.000    0.000    0.000    0.000 threading.py:529(is_set)
+      600    0.004    0.000    5.141    0.009 threading.py:556(wait)
+      600    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      600    0.004    0.000    0.010    0.000 threading.py:777(__init__)
+      600    0.004    0.000    5.188    0.009 threading.py:855(start)
+      600    0.001    0.000    0.002    0.000 threading.py:966(_stop)
+     2400    0.009    0.000    0.009    0.000 {built-in method _thread.allocate_lock}
+     1200    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      600    0.043    0.000    0.043    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    7.687    7.687 {built-in method builtins.exec}
+      600    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     1800    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     3000    7.592    0.003    7.592    0.003 {method 'acquire' of '_thread.lock' objects}
+      600    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      600    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      600    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      600    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      600    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1200    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== FIRST POOL, 700 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         38504 function calls in 8.619 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    8.619    8.619 <string>:1(<module>)
+      700    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.002    0.002    8.619    8.619 client.py:36(test_function)
+     1400    0.001    0.000    0.001    0.000 singleton.py:4(__call__)
+      700    0.003    0.000    0.009    0.000 thread_builder.py:115(__init__)
+      700    0.003    0.000    0.017    0.000 thread_builder.py:131(config)
+      700    0.001    0.000    0.029    0.000 thread_builder.py:177(get_thread)
+      700    0.003    0.000    2.353    0.003 threading.py:1001(join)
+      700    0.001    0.000    2.350    0.003 threading.py:1039(_wait_for_tstate_lock)
+     1400    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      700    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     1400    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     2100    0.006    0.000    0.006    0.000 threading.py:228(__init__)
+      700    0.001    0.000    0.001    0.000 threading.py:256(__enter__)
+      700    0.001    0.000    0.001    0.000 threading.py:259(__exit__)
+      700    0.000    0.000    0.001    0.000 threading.py:265(_release_save)
+      700    0.001    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      700    0.000    0.000    0.001    0.000 threading.py:271(_is_owned)
+      700    0.004    0.000    6.169    0.009 threading.py:280(wait)
+     2100    0.002    0.000    0.014    0.000 threading.py:521(__init__)
+     1400    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+      700    0.005    0.000    6.176    0.009 threading.py:556(wait)
+      700    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+      700    0.004    0.000    0.011    0.000 threading.py:777(__init__)
+      700    0.005    0.000    6.235    0.009 threading.py:855(start)
+      700    0.001    0.000    0.002    0.000 threading.py:966(_stop)
+     2800    0.009    0.000    0.009    0.000 {built-in method _thread.allocate_lock}
+     1400    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      700    0.053    0.000    0.053    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    8.619    8.619 {built-in method builtins.exec}
+      700    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     2100    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     3500    8.507    0.002    8.507    0.002 {method 'acquire' of '_thread.lock' objects}
+      700    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      700    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      700    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      700    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      700    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1400    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== SECOND POOL, 700 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         38504 function calls in 9.028 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    9.028    9.028 <string>:1(<module>)
+      700    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.002    0.002    9.027    9.027 client.py:36(test_function)
+     1400    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      700    0.003    0.000    0.007    0.000 thread_builder.py:115(__init__)
+      700    0.003    0.000    0.013    0.000 thread_builder.py:131(config)
+      700    0.001    0.000    0.024    0.000 thread_builder.py:177(get_thread)
+      700    0.003    0.000    2.418    0.003 threading.py:1001(join)
+      700    0.001    0.000    2.415    0.003 threading.py:1039(_wait_for_tstate_lock)
+     1400    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      700    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     1400    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     2100    0.004    0.000    0.004    0.000 threading.py:228(__init__)
+      700    0.001    0.000    0.001    0.000 threading.py:256(__enter__)
+      700    0.001    0.000    0.001    0.000 threading.py:259(__exit__)
+      700    0.000    0.000    0.001    0.000 threading.py:265(_release_save)
+      700    0.001    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      700    0.000    0.000    0.001    0.000 threading.py:271(_is_owned)
+      700    0.004    0.000    6.515    0.009 threading.py:280(wait)
+     2100    0.002    0.000    0.011    0.000 threading.py:521(__init__)
+     1400    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+      700    0.005    0.000    6.522    0.009 threading.py:556(wait)
+      700    0.000    0.000    0.000    0.000 threading.py:750(_newname)
+      700    0.004    0.000    0.010    0.000 threading.py:777(__init__)
+      700    0.005    0.000    6.583    0.009 threading.py:855(start)
+      700    0.001    0.000    0.002    0.000 threading.py:966(_stop)
+     2800    0.007    0.000    0.007    0.000 {built-in method _thread.allocate_lock}
+     1400    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      700    0.055    0.000    0.055    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    9.028    9.028 {built-in method builtins.exec}
+      700    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     2100    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     3500    8.919    0.003    8.919    0.003 {method 'acquire' of '_thread.lock' objects}
+      700    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      700    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      700    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      700    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      700    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1400    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== THIRD POOL, 700 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         38504 function calls in 11.007 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   11.007   11.007 <string>:1(<module>)
+      700    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.002    0.002   11.007   11.007 client.py:36(test_function)
+     1400    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      700    0.004    0.000    0.009    0.000 thread_builder.py:115(__init__)
+      700    0.003    0.000    0.017    0.000 thread_builder.py:131(config)
+      700    0.001    0.000    0.031    0.000 thread_builder.py:177(get_thread)
+      700    0.003    0.000    6.878    0.010 threading.py:1001(join)
+      700    0.001    0.000    6.875    0.010 threading.py:1039(_wait_for_tstate_lock)
+     1400    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      700    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     1400    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     2100    0.007    0.000    0.007    0.000 threading.py:228(__init__)
+      700    0.001    0.000    0.001    0.000 threading.py:256(__enter__)
+      700    0.001    0.000    0.001    0.000 threading.py:259(__exit__)
+      700    0.000    0.000    0.001    0.000 threading.py:265(_release_save)
+      700    0.001    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      700    0.000    0.000    0.001    0.000 threading.py:271(_is_owned)
+      700    0.003    0.000    4.039    0.006 threading.py:280(wait)
+     2100    0.002    0.000    0.015    0.000 threading.py:521(__init__)
+     1400    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+      700    0.005    0.000    4.046    0.006 threading.py:556(wait)
+      700    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+      700    0.004    0.000    0.013    0.000 threading.py:777(__init__)
+      700    0.004    0.000    4.096    0.006 threading.py:855(start)
+      700    0.001    0.000    0.002    0.000 threading.py:966(_stop)
+     2800    0.009    0.000    0.009    0.000 {built-in method _thread.allocate_lock}
+     1400    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      700    0.045    0.000    0.045    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000   11.007   11.007 {built-in method builtins.exec}
+      700    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     2100    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+     3500   10.903    0.003   10.903    0.003 {method 'acquire' of '_thread.lock' objects}
+      700    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      700    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      700    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      700    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      700    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1400    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== FIRST POOL, 800 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         44004 function calls in 10.800 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   10.800   10.800 <string>:1(<module>)
+      800    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.003    0.003   10.800   10.800 client.py:36(test_function)
+     1600    0.001    0.000    0.001    0.000 singleton.py:4(__call__)
+      800    0.005    0.000    0.077    0.000 thread_builder.py:115(__init__)
+      800    0.004    0.000    0.087    0.000 thread_builder.py:131(config)
+      800    0.002    0.000    0.107    0.000 thread_builder.py:177(get_thread)
+      800    0.003    0.000    2.237    0.003 threading.py:1001(join)
+      800    0.001    0.000    2.233    0.003 threading.py:1039(_wait_for_tstate_lock)
+     1600    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      800    0.004    0.000    0.004    0.000 threading.py:1189(_make_invoke_excepthook)
+     1600    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     2400    0.073    0.000    0.073    0.000 threading.py:228(__init__)
+      800    0.001    0.000    0.001    0.000 threading.py:256(__enter__)
+      800    0.001    0.000    0.001    0.000 threading.py:259(__exit__)
+      800    0.000    0.000    0.001    0.000 threading.py:265(_release_save)
+      800    0.001    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      800    0.001    0.000    0.001    0.000 threading.py:271(_is_owned)
+      800    0.005    0.000    8.369    0.010 threading.py:280(wait)
+     2400    0.003    0.000    0.083    0.000 threading.py:521(__init__)
+     1600    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+      800    0.007    0.000    8.378    0.010 threading.py:556(wait)
+      800    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+      800    0.006    0.000    0.019    0.000 threading.py:777(__init__)
+      800    0.006    0.000    8.453    0.011 threading.py:855(start)
+      800    0.002    0.000    0.002    0.000 threading.py:966(_stop)
+     3200    0.012    0.000    0.012    0.000 {built-in method _thread.allocate_lock}
+     1600    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      800    0.068    0.000    0.068    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000   10.800   10.800 {built-in method builtins.exec}
+      800    0.001    0.000    0.001    0.000 {method '__enter__' of '_thread.lock' objects}
+     2400    0.001    0.000    0.001    0.000 {method '__exit__' of '_thread.lock' objects}
+     4000   10.586    0.003   10.586    0.003 {method 'acquire' of '_thread.lock' objects}
+      800    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      800    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      800    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      800    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      800    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1600    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== SECOND POOL, 800 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         44004 function calls in 10.355 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   10.355   10.355 <string>:1(<module>)
+      800    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.003    0.003   10.355   10.355 client.py:36(test_function)
+     1600    0.001    0.000    0.001    0.000 singleton.py:4(__call__)
+      800    0.004    0.000    0.010    0.000 thread_builder.py:115(__init__)
+      800    0.004    0.000    0.020    0.000 thread_builder.py:131(config)
+      800    0.001    0.000    0.038    0.000 thread_builder.py:177(get_thread)
+      800    0.003    0.000    2.238    0.003 threading.py:1001(join)
+      800    0.001    0.000    2.234    0.003 threading.py:1039(_wait_for_tstate_lock)
+     1600    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      800    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     1600    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     2400    0.008    0.000    0.008    0.000 threading.py:228(__init__)
+      800    0.001    0.000    0.001    0.000 threading.py:256(__enter__)
+      800    0.001    0.000    0.001    0.000 threading.py:259(__exit__)
+      800    0.000    0.000    0.001    0.000 threading.py:265(_release_save)
+      800    0.001    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      800    0.000    0.000    0.001    0.000 threading.py:271(_is_owned)
+      800    0.005    0.000    7.999    0.010 threading.py:280(wait)
+     2400    0.002    0.000    0.017    0.000 threading.py:521(__init__)
+     1600    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+      800    0.006    0.000    8.008    0.010 threading.py:556(wait)
+      800    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+      800    0.007    0.000    0.016    0.000 threading.py:777(__init__)
+      800    0.006    0.000    8.077    0.010 threading.py:855(start)
+      800    0.002    0.000    0.002    0.000 threading.py:966(_stop)
+     3200    0.013    0.000    0.013    0.000 {built-in method _thread.allocate_lock}
+     1600    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      800    0.062    0.000    0.062    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000   10.355   10.355 {built-in method builtins.exec}
+      800    0.001    0.000    0.001    0.000 {method '__enter__' of '_thread.lock' objects}
+     2400    0.001    0.000    0.001    0.000 {method '__exit__' of '_thread.lock' objects}
+     4000   10.216    0.003   10.216    0.003 {method 'acquire' of '_thread.lock' objects}
+      800    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      800    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      800    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      800    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      800    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1600    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== THIRD POOL, 800 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         44004 function calls in 9.666 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    9.666    9.666 <string>:1(<module>)
+      800    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.002    0.002    9.666    9.666 client.py:36(test_function)
+     1600    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      800    0.003    0.000    0.007    0.000 thread_builder.py:115(__init__)
+      800    0.003    0.000    0.014    0.000 thread_builder.py:131(config)
+      800    0.001    0.000    0.025    0.000 thread_builder.py:177(get_thread)
+      800    0.003    0.000    2.224    0.003 threading.py:1001(join)
+      800    0.001    0.000    2.221    0.003 threading.py:1039(_wait_for_tstate_lock)
+     1600    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      800    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     1600    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     2400    0.005    0.000    0.005    0.000 threading.py:228(__init__)
+      800    0.001    0.000    0.001    0.000 threading.py:256(__enter__)
+      800    0.001    0.000    0.001    0.000 threading.py:259(__exit__)
+      800    0.000    0.000    0.001    0.000 threading.py:265(_release_save)
+      800    0.001    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      800    0.000    0.000    0.001    0.000 threading.py:271(_is_owned)
+      800    0.004    0.000    7.346    0.009 threading.py:280(wait)
+     2400    0.002    0.000    0.011    0.000 threading.py:521(__init__)
+     1600    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+      800    0.006    0.000    7.353    0.009 threading.py:556(wait)
+      800    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+      800    0.004    0.000    0.010    0.000 threading.py:777(__init__)
+      800    0.005    0.000    7.414    0.009 threading.py:855(start)
+      800    0.001    0.000    0.002    0.000 threading.py:966(_stop)
+     3200    0.008    0.000    0.008    0.000 {built-in method _thread.allocate_lock}
+     1600    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      800    0.055    0.000    0.055    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000    9.666    9.666 {built-in method builtins.exec}
+      800    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     2400    0.001    0.000    0.001    0.000 {method '__exit__' of '_thread.lock' objects}
+     4000    9.554    0.002    9.554    0.002 {method 'acquire' of '_thread.lock' objects}
+      800    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      800    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      800    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      800    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      800    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1600    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== FIRST POOL, 900 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         49504 function calls in 10.718 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   10.718   10.718 <string>:1(<module>)
+      900    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.003    0.003   10.718   10.718 client.py:36(test_function)
+     1800    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      900    0.004    0.000    0.009    0.000 thread_builder.py:115(__init__)
+      900    0.004    0.000    0.017    0.000 thread_builder.py:131(config)
+      900    0.001    0.000    0.076    0.000 thread_builder.py:177(get_thread)
+      900    0.003    0.000    2.265    0.003 threading.py:1001(join)
+      900    0.001    0.000    2.261    0.003 threading.py:1039(_wait_for_tstate_lock)
+     1800    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      900    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     1800    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     2700    0.006    0.000    0.006    0.000 threading.py:228(__init__)
+      900    0.001    0.000    0.001    0.000 threading.py:256(__enter__)
+      900    0.001    0.000    0.001    0.000 threading.py:259(__exit__)
+      900    0.000    0.000    0.001    0.000 threading.py:265(_release_save)
+      900    0.001    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      900    0.001    0.000    0.001    0.000 threading.py:271(_is_owned)
+      900    0.005    0.000    8.295    0.009 threading.py:280(wait)
+     2700    0.002    0.000    0.014    0.000 threading.py:521(__init__)
+     1800    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+      900    0.006    0.000    8.303    0.009 threading.py:556(wait)
+      900    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+      900    0.049    0.000    0.057    0.000 threading.py:777(__init__)
+      900    0.006    0.000    8.374    0.009 threading.py:855(start)
+      900    0.002    0.000    0.002    0.000 threading.py:966(_stop)
+     3600    0.012    0.000    0.012    0.000 {built-in method _thread.allocate_lock}
+     1800    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      900    0.064    0.000    0.064    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000   10.718   10.718 {built-in method builtins.exec}
+      900    0.001    0.000    0.001    0.000 {method '__enter__' of '_thread.lock' objects}
+     2700    0.001    0.000    0.001    0.000 {method '__exit__' of '_thread.lock' objects}
+     4500   10.538    0.002   10.538    0.002 {method 'acquire' of '_thread.lock' objects}
+      900    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      900    0.001    0.000    0.001    0.000 {method 'append' of 'collections.deque' objects}
+      900    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      900    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      900    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1800    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== SECOND POOL, 900 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         49504 function calls in 10.447 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   10.447   10.447 <string>:1(<module>)
+      900    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.002    0.002   10.447   10.447 client.py:36(test_function)
+     1800    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      900    0.003    0.000    0.008    0.000 thread_builder.py:115(__init__)
+      900    0.003    0.000    0.016    0.000 thread_builder.py:131(config)
+      900    0.001    0.000    0.029    0.000 thread_builder.py:177(get_thread)
+      900    0.003    0.000    2.424    0.003 threading.py:1001(join)
+      900    0.001    0.000    2.420    0.003 threading.py:1039(_wait_for_tstate_lock)
+     1800    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      900    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     1800    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     2700    0.006    0.000    0.006    0.000 threading.py:228(__init__)
+      900    0.001    0.000    0.001    0.000 threading.py:256(__enter__)
+      900    0.001    0.000    0.001    0.000 threading.py:259(__exit__)
+      900    0.000    0.000    0.001    0.000 threading.py:265(_release_save)
+      900    0.001    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      900    0.000    0.000    0.001    0.000 threading.py:271(_is_owned)
+      900    0.004    0.000    7.918    0.009 threading.py:280(wait)
+     2700    0.002    0.000    0.013    0.000 threading.py:521(__init__)
+     1800    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+      900    0.006    0.000    7.926    0.009 threading.py:556(wait)
+      900    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+      900    0.005    0.000    0.012    0.000 threading.py:777(__init__)
+      900    0.006    0.000    7.991    0.009 threading.py:855(start)
+      900    0.002    0.000    0.002    0.000 threading.py:966(_stop)
+     3600    0.010    0.000    0.010    0.000 {built-in method _thread.allocate_lock}
+     1800    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      900    0.059    0.000    0.059    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000   10.447   10.447 {built-in method builtins.exec}
+      900    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+     2700    0.001    0.000    0.001    0.000 {method '__exit__' of '_thread.lock' objects}
+     4500   10.324    0.002   10.324    0.002 {method 'acquire' of '_thread.lock' objects}
+      900    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      900    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      900    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      900    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      900    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1800    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== THIRD POOL, 900 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         49504 function calls in 10.591 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   10.591   10.591 <string>:1(<module>)
+      900    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.002    0.002   10.591   10.591 client.py:36(test_function)
+     1800    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+      900    0.003    0.000    0.008    0.000 thread_builder.py:115(__init__)
+      900    0.003    0.000    0.016    0.000 thread_builder.py:131(config)
+      900    0.001    0.000    0.030    0.000 thread_builder.py:177(get_thread)
+      900    0.005    0.000    2.329    0.003 threading.py:1001(join)
+      900    0.001    0.000    2.323    0.003 threading.py:1039(_wait_for_tstate_lock)
+     1800    0.000    0.000    0.000    0.000 threading.py:1107(daemon)
+      900    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     1800    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     2700    0.006    0.000    0.006    0.000 threading.py:228(__init__)
+      900    0.001    0.000    0.001    0.000 threading.py:256(__enter__)
+      900    0.001    0.000    0.001    0.000 threading.py:259(__exit__)
+      900    0.000    0.000    0.001    0.000 threading.py:265(_release_save)
+      900    0.001    0.000    0.001    0.000 threading.py:268(_acquire_restore)
+      900    0.001    0.000    0.001    0.000 threading.py:271(_is_owned)
+      900    0.005    0.000    8.154    0.009 threading.py:280(wait)
+     2700    0.002    0.000    0.013    0.000 threading.py:521(__init__)
+     1800    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+      900    0.006    0.000    8.162    0.009 threading.py:556(wait)
+      900    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+      900    0.005    0.000    0.012    0.000 threading.py:777(__init__)
+      900    0.006    0.000    8.230    0.009 threading.py:855(start)
+      900    0.002    0.000    0.002    0.000 threading.py:966(_stop)
+     3600    0.009    0.000    0.009    0.000 {built-in method _thread.allocate_lock}
+     1800    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+      900    0.061    0.000    0.061    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000   10.591   10.591 {built-in method builtins.exec}
+      900    0.001    0.000    0.001    0.000 {method '__enter__' of '_thread.lock' objects}
+     2700    0.001    0.000    0.001    0.000 {method '__exit__' of '_thread.lock' objects}
+     4500   10.462    0.002   10.462    0.002 {method 'acquire' of '_thread.lock' objects}
+      900    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      900    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+      900    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      900    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+      900    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     1800    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== FIRST POOL, 1000 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         55004 function calls in 13.127 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   13.127   13.127 <string>:1(<module>)
+     1000    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.003    0.003   13.127   13.127 client.py:36(test_function)
+     2000    0.001    0.000    0.001    0.000 singleton.py:4(__call__)
+     1000    0.006    0.000    0.014    0.000 thread_builder.py:115(__init__)
+     1000    0.005    0.000    0.027    0.000 thread_builder.py:131(config)
+     1000    0.002    0.000    0.052    0.000 thread_builder.py:177(get_thread)
+     1000    0.004    0.000    2.369    0.002 threading.py:1001(join)
+     1000    0.001    0.000    2.364    0.002 threading.py:1039(_wait_for_tstate_lock)
+     2000    0.001    0.000    0.001    0.000 threading.py:1107(daemon)
+     1000    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     2000    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     3000    0.013    0.000    0.013    0.000 threading.py:228(__init__)
+     1000    0.001    0.000    0.001    0.000 threading.py:256(__enter__)
+     1000    0.001    0.000    0.001    0.000 threading.py:259(__exit__)
+     1000    0.001    0.000    0.001    0.000 threading.py:265(_release_save)
+     1000    0.001    0.000    0.002    0.000 threading.py:268(_acquire_restore)
+     1000    0.001    0.000    0.001    0.000 threading.py:271(_is_owned)
+     1000    0.006    0.000   10.605    0.011 threading.py:280(wait)
+     3000    0.003    0.000    0.025    0.000 threading.py:521(__init__)
+     2000    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+     1000    0.008    0.000   10.616    0.011 threading.py:556(wait)
+     1000    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+     1000    0.008    0.000    0.023    0.000 threading.py:777(__init__)
+     1000    0.007    0.000   10.702    0.011 threading.py:855(start)
+     1000    0.002    0.000    0.002    0.000 threading.py:966(_stop)
+     4000    0.013    0.000    0.013    0.000 {built-in method _thread.allocate_lock}
+     2000    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+     1000    0.078    0.000    0.078    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000   13.127   13.127 {built-in method builtins.exec}
+     1000    0.001    0.000    0.001    0.000 {method '__enter__' of '_thread.lock' objects}
+     3000    0.001    0.000    0.001    0.000 {method '__exit__' of '_thread.lock' objects}
+     5000   12.953    0.003   12.953    0.003 {method 'acquire' of '_thread.lock' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     2000    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== SECOND POOL, 1000 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         55004 function calls in 12.810 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   12.810   12.810 <string>:1(<module>)
+     1000    0.001    0.000    0.002    0.000 _weakrefset.py:82(add)
+        1    0.004    0.004   12.810   12.810 client.py:36(test_function)
+     2000    0.001    0.000    0.001    0.000 singleton.py:4(__call__)
+     1000    0.006    0.000    0.015    0.000 thread_builder.py:115(__init__)
+     1000    0.007    0.000    0.031    0.000 thread_builder.py:131(config)
+     1000    0.002    0.000    0.054    0.000 thread_builder.py:177(get_thread)
+     1000    0.003    0.000    2.294    0.002 threading.py:1001(join)
+     1000    0.001    0.000    2.290    0.002 threading.py:1039(_wait_for_tstate_lock)
+     2000    0.001    0.000    0.001    0.000 threading.py:1107(daemon)
+     1000    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     2000    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     3000    0.012    0.000    0.012    0.000 threading.py:228(__init__)
+     1000    0.001    0.000    0.002    0.000 threading.py:256(__enter__)
+     1000    0.001    0.000    0.001    0.000 threading.py:259(__exit__)
+     1000    0.001    0.000    0.001    0.000 threading.py:265(_release_save)
+     1000    0.001    0.000    0.002    0.000 threading.py:268(_acquire_restore)
+     1000    0.001    0.000    0.002    0.000 threading.py:271(_is_owned)
+     1000    0.006    0.000   10.350    0.010 threading.py:280(wait)
+     3000    0.005    0.000    0.025    0.000 threading.py:521(__init__)
+     2000    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+     1000    0.008    0.000   10.361    0.010 threading.py:556(wait)
+     1000    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+     1000    0.008    0.000    0.021    0.000 threading.py:777(__init__)
+     1000    0.008    0.000   10.458    0.010 threading.py:855(start)
+     1000    0.002    0.000    0.002    0.000 threading.py:966(_stop)
+     4000    0.013    0.000    0.013    0.000 {built-in method _thread.allocate_lock}
+     2000    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+     1000    0.088    0.000    0.088    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000   12.810   12.810 {built-in method builtins.exec}
+     1000    0.001    0.000    0.001    0.000 {method '__enter__' of '_thread.lock' objects}
+     3000    0.001    0.000    0.001    0.000 {method '__exit__' of '_thread.lock' objects}
+     5000   12.622    0.003   12.622    0.003 {method 'acquire' of '_thread.lock' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     2000    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
+
+====== THIRD POOL, 1000 THREADS, 100 OBJECTS, 10000 OPERATIONS INSIDE FUNCTION ======
+
+         55004 function calls in 12.727 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   12.727   12.727 <string>:1(<module>)
+     1000    0.001    0.000    0.001    0.000 _weakrefset.py:82(add)
+        1    0.003    0.003   12.727   12.727 client.py:36(test_function)
+     2000    0.000    0.000    0.000    0.000 singleton.py:4(__call__)
+     1000    0.004    0.000    0.010    0.000 thread_builder.py:115(__init__)
+     1000    0.004    0.000    0.019    0.000 thread_builder.py:131(config)
+     1000    0.001    0.000    0.096    0.000 thread_builder.py:177(get_thread)
+     1000    0.010    0.000    2.435    0.002 threading.py:1001(join)
+     1000    0.002    0.000    2.424    0.002 threading.py:1039(_wait_for_tstate_lock)
+     2000    0.001    0.000    0.001    0.000 threading.py:1107(daemon)
+     1000    0.001    0.000    0.001    0.000 threading.py:1189(_make_invoke_excepthook)
+     2000    0.001    0.000    0.001    0.000 threading.py:1318(current_thread)
+     3000    0.007    0.000    0.007    0.000 threading.py:228(__init__)
+     1000    0.001    0.000    0.001    0.000 threading.py:256(__enter__)
+     1000    0.001    0.000    0.001    0.000 threading.py:259(__exit__)
+     1000    0.001    0.000    0.001    0.000 threading.py:265(_release_save)
+     1000    0.001    0.000    0.002    0.000 threading.py:268(_acquire_restore)
+     1000    0.001    0.000    0.001    0.000 threading.py:271(_is_owned)
+     1000    0.007    0.000   10.098    0.010 threading.py:280(wait)
+     3000    0.002    0.000    0.015    0.000 threading.py:521(__init__)
+     2000    0.001    0.000    0.001    0.000 threading.py:529(is_set)
+     1000    0.007    0.000   10.108    0.010 threading.py:556(wait)
+     1000    0.001    0.000    0.001    0.000 threading.py:750(_newname)
+     1000    0.068    0.000    0.076    0.000 threading.py:777(__init__)
+     1000    0.007    0.000   10.193    0.010 threading.py:855(start)
+     1000    0.002    0.000    0.003    0.000 threading.py:966(_stop)
+     4000    0.011    0.000    0.011    0.000 {built-in method _thread.allocate_lock}
+     2000    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+     1000    0.077    0.000    0.077    0.000 {built-in method _thread.start_new_thread}
+        1    0.000    0.000   12.727   12.727 {built-in method builtins.exec}
+     1000    0.001    0.000    0.001    0.000 {method '__enter__' of '_thread.lock' objects}
+     3000    0.001    0.000    0.001    0.000 {method '__exit__' of '_thread.lock' objects}
+     5000   12.502    0.003   12.502    0.003 {method 'acquire' of '_thread.lock' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+     1000    0.000    0.000    0.000    0.000 {method 'locked' of '_thread.lock' objects}
+     2000    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+
+
