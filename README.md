@@ -1,3 +1,4 @@
+# THE ASSIGNMENT:
 # Wzorce: Pule obliczeń
 
 | Termin oddania | Punkty     |
